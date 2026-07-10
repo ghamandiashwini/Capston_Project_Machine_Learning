@@ -1,24 +1,35 @@
-# Capston_Project_Machine_Learning
-
-# Capstone Project - Machine Learning
+# Telco Customer Churn Prediction - Machine Learning Assignment
 
 ## Overview
 
-The **Capstone Project - Machine Learning** is a comprehensive project completed as part of the Data Science & AI Bootcamp. This project demonstrates the end-to-end machine learning workflow, from data exploration and preprocessing to model development, evaluation, and interpretation.
+This project was completed as part of a Machine Learning assignment in the Data Science & AI Bootcamp. The objective was to develop and evaluate machine learning models capable of predicting whether a telecommunications customer is likely to churn based on customer demographics, account information, and subscribed services.
 
-The project applies machine learning techniques to analyse real-world data, identify patterns, and build predictive models to support data-driven decision-making.
+The project follows a complete machine learning workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, evaluation, and performance comparison.
 
 ---
 
 ## Objectives
 
-- Explore and understand the dataset
-- Perform data cleaning and preprocessing
-- Conduct exploratory data analysis (EDA)
-- Identify important features and relationships within the data
-- Build and evaluate machine learning models
-- Compare model performance and select suitable algorithms
-- Generate insights from model results
+- Explore and understand the Telco Customer Churn dataset.
+- Clean and preprocess the data for machine learning.
+- Perform exploratory data analysis to identify patterns and relationships.
+- Train classification models to predict customer churn.
+- Evaluate model performance using standard classification metrics.
+- Identify the features that have the greatest impact on customer churn.
+
+---
+
+## Dataset
+
+The dataset contains customer information including:
+
+- Customer demographics
+- Account tenure
+- Internet and phone services
+- Contract type
+- Payment method
+- Monthly and total charges
+- Churn status (Target Variable)
 
 ---
 
@@ -34,92 +45,77 @@ The project applies machine learning techniques to analyse real-world data, iden
 
 ---
 
-## Machine Learning Workflow
+## Project Workflow
 
-### 1. Data Exploration & Analysis
+### 1. Data Exploration
 - Dataset inspection
-- Summary statistics
-- Data distribution analysis
-- Visualization of important features
-- Identification of patterns and trends
+- Descriptive statistics
+- Missing value analysis
+- Data visualization
 
 ### 2. Data Preprocessing
-- Handling missing values
 - Data cleaning
-- Feature selection
-- Feature scaling
+- Handling missing values
 - Encoding categorical variables
-- Splitting data into training and testing sets
+- Feature scaling
+- Splitting data into training and testing datasets
 
-### 3. Model Development
+### 3. Machine Learning Models
 
-Implemented machine learning algorithms including:
+The assignment included building and evaluating classification models such as:
 
-- Linear Regression
 - Logistic Regression
-- Decision Tree
-- Random Forest
-- K-Means Clustering
-- Other classification and clustering techniques (where applicable)
+- Decision Tree Classifier
+- Random Forest Classifier
 
 ### 4. Model Evaluation
 
-Models were evaluated using appropriate performance metrics:
+Models were assessed using:
 
-**Regression Metrics**
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-- R² Score
-
-**Classification Metrics**
-- Accuracy Score
+- Accuracy
 - Precision
 - Recall
 - F1 Score
 - Confusion Matrix
-
-**Clustering Evaluation**
-- Elbow Method
-- Cluster Analysis
+- Classification Report
+- ROC-AUC Score
 
 ---
 
-## Data Analysis & Visualizations
+## Visualizations
 
 The project includes:
 
-- Distribution plots
-- Correlation heatmaps
-- Feature relationship analysis
-- Model performance comparisons
-- Prediction visualizations
-- Clustering visualizations
+- Churn distribution
+- Correlation heatmap
+- Customer feature analysis
+- Confusion Matrix
+- ROC Curve
+- Feature importance (where applicable)
 
 ---
 
 ## Skills Demonstrated
 
-- Machine Learning Model Development
+- Machine Learning
+- Classification Algorithms
 - Exploratory Data Analysis (EDA)
 - Data Cleaning & Preprocessing
 - Feature Engineering
-- Supervised Learning
-- Unsupervised Learning
 - Model Evaluation
 - Data Visualization
 - Python Programming
-- Statistical Analysis
+- Business Data Analysis
 
 ---
 
 ## Project Structure
 
 ```
-Capstone_Project_Machine_Learning/
+Telco_Customer_Churn/
 │
-├── Capstone_Project_Machine_Learning.ipynb
-├── dataset.csv
+├── telco_customer_churn.ipynb
+├── Telco-Customer-Churn.xls
 ├── README.md
 ```
 
@@ -127,25 +123,25 @@ Capstone_Project_Machine_Learning/
 
 ## How to Run
 
-1. Clone the repository:
+1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Capstone_Project_Machine_Learning.git
+git clone https://github.com/ghamandiashwini/Capston_Project_Machine_Learning.git
 ```
 
-2. Navigate to the project folder:
+2. Navigate to the project folder
 
 ```bash
-cd Capstone_Project_Machine_Learning
+cd Telco_Customer_Churn
 ```
 
-3. Install required libraries:
+3. Install the required packages
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
-4. Launch Jupyter Notebook:
+4. Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
@@ -155,23 +151,25 @@ jupyter notebook
 
 ---
 
-## Key Outcomes
+## Learning Outcomes
 
-- Developed an end-to-end machine learning pipeline.
-- Applied multiple machine learning algorithms to solve predictive problems.
-- Evaluated model performance using industry-standard metrics.
-- Generated insights through data analysis and visualization.
-- Improved understanding of practical machine learning applications.
+Through this assignment, I gained practical experience in:
+
+- Preparing real-world datasets for machine learning.
+- Applying classification algorithms to solve predictive problems.
+- Evaluating model performance using industry-standard metrics.
+- Interpreting model results to generate actionable business insights.
+- Following an end-to-end machine learning workflow.
 
 ---
 
 ## Future Improvements
 
-- Perform advanced feature engineering.
-- Apply hyperparameter tuning to optimise models.
-- Deploy the trained model using Flask/FastAPI.
-- Create interactive dashboards using Power BI or Tableau.
-- Implement automated machine learning workflows.
+- Perform hyperparameter tuning using GridSearchCV.
+- Address class imbalance using SMOTE.
+- Compare additional classification algorithms such as XGBoost and Support Vector Machines.
+- Deploy the trained model as a web application.
+- Build an interactive Power BI dashboard to visualize customer churn insights.
 
 ---
 
@@ -179,4 +177,4 @@ jupyter notebook
 
 **Ashwini**
 
-**Data Analyst | Python | SQL | Power BI | Machine Learning | AI**
+**Data Analyst | Python | SQL | Power BI | Machine Learning**
